@@ -1,0 +1,29 @@
+1. Operadores Aritméticos:
+
+Adição (+)
+Subtração (-)
+Multiplicação (*)
+Divisão (/)
+Módulo (%)
+Incremento (++)
+Decremento (--)
+
+2. Operadores de Atribuição:
+
+Igual (=)
+Atribuição composta (ex: +=, -=, *=, /=, %=)
+
+3. Operadores de Comparação:
+
+Igual a (==)
+Diferente de (!=)
+Maior que (>)
+Menor que (<)
+Maior ou igual a (>=)
+Menor ou igual a (<=)
+
+4. Operadores Lógicos:
+
+E lógico (&&)
+Ou lógico (||)
+Negação (!)
