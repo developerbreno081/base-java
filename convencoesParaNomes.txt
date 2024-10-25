@@ -1,0 +1,10 @@
+Camel Case: lastLame
+
+- pacotes
+- atributos
+- métodos
+- variáveis e parâmetros
+
+Pascal Case: ProductService
+
+- classes
