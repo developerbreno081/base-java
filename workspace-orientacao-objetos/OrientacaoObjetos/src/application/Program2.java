@@ -21,14 +21,32 @@ public class Program2 {
 		dadosProduto.preco = sc.nextDouble();
 		System.out.print("Quantidade: ");
 		dadosProduto.quantidade = sc.nextInt();
+		
 		System.out.println();
+		System.out.print("Dados do Produto: " + dadosProduto);
 		
-		double total = dadosProduto.totalEmEstoque();
-		System.out.printf("Dados do produto: %s, $ %.2f, %d unidades, Total: $ %.2f%n", dadosProduto.nome,dadosProduto.preco,dadosProduto.quantidade,total);
+		System.out.println();
+		System.out.println();
+		System.out.print("Insira um número corresponde a quantidade de produtos para serem inseridos no estoque: ");
 		
-		System.out.print("Quantos produtos você quer adicionar no estoque? ");
-		dadosProduto.quantidade = sc.nextInt();
-		System.out.printf("Dados do produto: %s, $ %.2f, %d unidades, Total: $ %.2f%n", dadosProduto.nome,dadosProduto.preco,dadosProduto.addProdutos(5),total);
+		int quantity = sc.nextInt();
+		dadosProduto.addProdutos(quantity);
+		
+		System.out.println();
+		System.out.println();
+		System.out.print("Update Produto: " + dadosProduto);
+		
+		System.out.println();
+		System.out.println();
+		System.out.print("Insira um número corresponde a quantidade de produtos para serem removidos do estoque: ");
+		
+		quantity = sc.nextInt();
+		dadosProduto.removeProdutos(quantity);
+		
+		System.out.println();
+		System.out.print("Remove Produto: " + dadosProduto);
+		
+		sc.close();
 
 	}
 
