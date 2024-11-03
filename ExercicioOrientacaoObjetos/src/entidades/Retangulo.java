@@ -5,22 +5,22 @@ public class Retangulo {
 	public double largura;
 	public double altura;
 	
-	public double Area() {
+	public double area() {
 		return largura * altura;
 	}
 	
-	public double Perimetro() {
+	public double perimetro() {
 		return 2 * (largura + altura);
 	}
 	
-	public double Diagonal() {
+	public double diagonal() {
 		return Math.sqrt((Math.pow(largura, 2) + Math.pow(altura, 2)));
 	}
 	
 	public String toString() {
 		return 
-		"AREA = " + String.format("%.2f",Area()) + "\n" + "PERIMETRO = " + String.format("%.2f",Perimetro()) + "\n" +
-		"DIAGONAL = " + String.format("%.2f",Diagonal());
+		"AREA = " + String.format("%.2f",area()) + "\n" + "PERIMETRO = " + String.format("%.2f",perimetro()) + "\n" +
+		"DIAGONAL = " + String.format("%.2f",diagonal());
 	}
 	
 	
